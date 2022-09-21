@@ -1,0 +1,138 @@
+nav{
+    border: 2px solid #262626;
+    height: 35px;
+    position: relative;
+    top: -8px;
+    left: -1.8mm;
+    width: 1435px;
+    background-color: #262626;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9.3pt;
+}
+
+
+
+nav > #ingresso > a{
+position: absolute;
+top:0% ;
+left: 18%;
+color: white;
+text-decoration: none;
+
+
+}
+
+nav > #ingresso > a:hover{
+    background-color: #404040;
+    height: 37.7px;
+    top: -1%;
+    transition: 0.3s;
+    border-radius: 10px;
+    
+    
+}
+
+nav > #uol_host > a{
+    position: absolute;
+    left: 25.6%;
+    top: 0%;
+    text-decoration: none;
+    color: white;
+}
+
+    nav > #uol_host > a:hover{
+        background-color: #404040;
+    height: 37.7px;
+    top: -1%;
+    transition: 0.3s;
+    border-radius: 10px;
+
+    }
+    
+
+    
+
+
+nav > #pagbank > a{
+    top: 0%;
+    position: absolute;
+    left: 30.6%;
+    color: whitesmoke;
+    text-decoration: none;
+
+
+}
+
+nav > #pagbank > a:hover{
+    background-color: #404040;
+    height: 37.7px;
+    top: -1%;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+
+nav > #pagseguro > a{
+    position: absolute;
+    top: 0%;
+    left: 35.8%;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+nav > #pagseguro > a:hover {
+    background-color: #404040;
+    height: 37.7px;
+    top: -1%;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+nav > #cursos > a{
+    position: absolute;
+    top: 0%;
+    left: 42.2%;
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+
+nav > #cursos > a:hover{
+    background-color: #404040;
+    height: 37.7px;
+    top: -1%;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+nav > #uol_play > a{
+ position: absolute;
+ top: 0% ;
+ left: 47%;   
+ color: whitesmoke;
+ text-decoration: none;
+}
+
+nav > #uol_play > a:hover{
+    background-color: #404040;
+    height: 37.7px;
+    top: -1%;
+    transition: 0.3s;
+    border-radius: 10px;
+
+}
+
+ .img_uol{
+    width: 80px;
+    position: absolute;
+    top: 5px;
+    left: 10%;
+   
+ }
+
+ .img_uol:hover{
+    box-shadow: 0px 2px 8px rgba(255, 255, 255, 0.527);
+    border-radius: 10px;
+    
+
+ }
