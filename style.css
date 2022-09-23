@@ -1,138 +1,122 @@
-nav{
-    border: 2px solid #262626;
-    height: 35px;
+.imguol{
+    width: 100px ;
     position: relative;
-    top: -8px;
-    left: -1.8mm;
-    width: 1435px;
+    top: 10px;
+    padding-left: 55px;
+    
+    
+  
+
+}
+
+.imguol:hover{
+    border-radius: 4px solid red;
+    position:relative;
     background-color: #262626;
+    padding: 0%;
+    left:55px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgb(5, 5, 5);
+  
+    box-shadow:  3px 4px 16px rgba(0, 0, 0, 0.733)
+    ;
+    
+}
+
+.principal{ /* Div Principal*/
+    
+    border: 1px solid  #262626;
+    position: absolute;
+    left: 0px;
+    top: -9px;
+    width: 1364px;
+    background-color: #262626;
+    height: 45.5px;
+    box-shadow: 0px 0px 6px black;
+}
+.segundaria{ /*Div segundaria*/
+    
+
+
+
+}
+ .letrasegundaria { /* Letra segundaria --> div 2*/
+    color: whitesmoke;
+    position: fixed;
+    left: 62%;
+    top: 2px;
+    letter-spacing: 1px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 9.3pt;
-}
-
-
-
-nav > #ingresso > a{
-position: absolute;
-top:0% ;
-left: 18%;
-color: white;
-text-decoration: none;
-
+    font-size: 8pt;
 
 }
-
-nav > #ingresso > a:hover{
-    background-color: #404040;
-    height: 37.7px;
-    top: -1%;
-    transition: 0.3s;
-    border-radius: 10px;
     
+
+
+header{ /* Retangulo do header*/
+    
+    border: 1px solid #262626;
     
 }
 
-nav > #uol_host > a{
+ul{   /*  Letras header*/
+    
+    list-style: none;
+    text-align: left;
+    
+    letter-spacing: 0.1px;
+    word-spacing: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 9.5pt;
+    color: whitesmoke;
     position: absolute;
-    left: 25.6%;
-    top: 0%;
+    top: 7px;
+    left: 150px;
+}
+li{
+    
+    display: inline;
+}
+
+li:hover{
+    background-color: red;
+    border-radius: 8px;
+    padding: 7px;
+    margin: -7px;
+    position: relative;
+    transition: 0.2s;
+    box-shadow: 0px 1px 3px red;
+    box-shadow: 0px 0px 19px black;
+    
+}
+a{
     text-decoration: none;
+    color: whitesmoke;
+    text-shadow: 0px 0px 2px black;
+}
+body{
+    background-color: #262626;
+}
+
+article > h1{
+}
+
+.img{ 
+    width: 400px;
+    
+    position: relative;
+    top: 80px;
+    margin: 15px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 2px white;
+}
+article >p{
+    padding: 0%;
+    margin: 30px;
+    top: -20px;
+    position: relative;
+    text-align: justify;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10.5pt;
 }
-
-    nav > #uol_host > a:hover{
-        background-color: #404040;
-    height: 37.7px;
-    top: -1%;
-    transition: 0.3s;
-    border-radius: 10px;
-
-    }
-    
-
-    
-
-
-nav > #pagbank > a{
-    top: 0%;
-    position: absolute;
-    left: 30.6%;
-    color: whitesmoke;
-    text-decoration: none;
-
-
-}
-
-nav > #pagbank > a:hover{
-    background-color: #404040;
-    height: 37.7px;
-    top: -1%;
-    transition: 0.3s;
-    border-radius: 10px;
-}
-
-
-nav > #pagseguro > a{
-    position: absolute;
-    top: 0%;
-    left: 35.8%;
-    color: whitesmoke;
-    text-decoration: none;
-}
-
-nav > #pagseguro > a:hover {
-    background-color: #404040;
-    height: 37.7px;
-    top: -1%;
-    transition: 0.3s;
-    border-radius: 10px;
-}
-
-nav > #cursos > a{
-    position: absolute;
-    top: 0%;
-    left: 42.2%;
-    color: whitesmoke;
-    text-decoration: none;
-    
-}
-
-nav > #cursos > a:hover{
-    background-color: #404040;
-    height: 37.7px;
-    top: -1%;
-    transition: 0.3s;
-    border-radius: 10px;
-}
-
-nav > #uol_play > a{
- position: absolute;
- top: 0% ;
- left: 47%;   
- color: whitesmoke;
- text-decoration: none;
-}
-
-nav > #uol_play > a:hover{
-    background-color: #404040;
-    height: 37.7px;
-    top: -1%;
-    transition: 0.3s;
-    border-radius: 10px;
-
-}
-
- .img_uol{
-    width: 80px;
-    position: absolute;
-    top: 5px;
-    left: 10%;
-   
- }
-
- .img_uol:hover{
-    box-shadow: 0px 2px 8px rgba(255, 255, 255, 0.527);
-    border-radius: 10px;
-    
-
- }
