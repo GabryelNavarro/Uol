@@ -1,3 +1,4 @@
+
 .imguol{
     width: 100px ;
     position: relative;
@@ -33,6 +34,8 @@
     background-color: #262626;
     height: 45.5px;
     box-shadow: 0px 0px 6px black;
+    max-width: 100%;
+    min-width: 0%;
 }
 .segundaria{ /*Div segundaria*/
     
@@ -42,7 +45,7 @@
 }
  .letrasegundaria { /* Letra segundaria --> div 2*/
     color: whitesmoke;
-    position: fixed;
+    position: absolute;
     left: 62%;
     top: 2px;
     letter-spacing: 1px;
@@ -56,6 +59,7 @@
 header{ /* Retangulo do header*/
     
     border: 1px solid #262626;
+    
     
 }
 
@@ -72,10 +76,13 @@ ul{   /*  Letras header*/
     position: absolute;
     top: 7px;
     left: 150px;
+    
+    
 }
 li{
     
     display: inline;
+   
 }
 
 li:hover{
@@ -95,28 +102,5 @@ a{
     text-shadow: 0px 0px 2px black;
 }
 body{
-    background-color: #262626;
-}
-
-article > h1{
-}
-
-.img{ 
-    width: 400px;
-    
-    position: relative;
-    top: 80px;
-    margin: 15px;
-    border: 1px solid white;
-    box-shadow: 0px 0px 2px white;
-}
-article >p{
-    padding: 0%;
-    margin: 30px;
-    top: -20px;
-    position: relative;
-    text-align: justify;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10.5pt;
+    background-color: #262626da;
 }
